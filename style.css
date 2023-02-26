@@ -836,9 +836,9 @@ button:hover {
             padding-left: 3px;
         }
 
-        button {
+        .all_btn {
             font-size: 10px;
-            width: 100px;
+            width: 100px; 
             border-radius: 10px;
             padding: 8px 3px 8px 3px;
             margin-left: 3px;    
