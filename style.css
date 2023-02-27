@@ -11,12 +11,14 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    width: 1440px;
     margin: 0 auto;
 }
 
-nav {
+header {
     background-color: #EDF2EC;
+}
+
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,6 +26,8 @@ nav {
     padding-bottom: 36px;
     padding-left: 109px;
     padding-right: 109px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 ul {
@@ -57,13 +61,18 @@ section {
     padding-right: 120px;
 }
 
-.home {
+main {
     background-color: #EDF2EC;
+}
+
+.home {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 54px;
     padding-bottom: 54px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .leafs_adaptive {
@@ -71,7 +80,7 @@ section {
 }
 
 .first_block {
-    padding-left: 212px;
+    padding-left: 412px;
 }
 
 h1 {
@@ -110,6 +119,8 @@ h1 {
     justify-content: space-between;
     padding-top: 60px;
     padding-bottom: 94px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .title_1 {
@@ -123,6 +134,7 @@ h1 {
 .about_img {
     padding-top: 30px;
     padding-bottom: 2px;
+    padding-left: 280px;
 }
 
 .service {
