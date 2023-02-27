@@ -137,8 +137,13 @@ h1 {
     padding-left: 280px;
 }
 
-.service {
+.service_item {
     background-color: #EDF2EC;
+}
+
+.service {
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .nav_service {
@@ -205,6 +210,8 @@ h1 {
 
 .price {
     padding-right: 106px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .price_basic {
@@ -345,7 +352,7 @@ h1 {
 }
 
 .price_item_2 {
-    padding-left: 400px;
+    padding-left: 600px;
 }
 
 .price_btn {
@@ -369,8 +376,13 @@ h1 {
     justify-content: end;
 }
 
-.contact {
+.contact_color {
     background-color: #EDF2EC;
+}
+
+.contact {
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .contact_h2 {
