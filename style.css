@@ -134,7 +134,7 @@ h1 {
 .about_img {
     padding-top: 30px;
     padding-bottom: 2px;
-    padding-left: 280px;
+    padding-left: 280px
 }
 
 .service_item {
@@ -439,6 +439,11 @@ h1 {
     padding-right: 35px;
 }
 
+footer {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .footer_section {
     display: flex;
     flex-direction: row;
@@ -486,34 +491,38 @@ button:hover {
     }
 
     html {
-        
-        min-width: 768px;
-    }
-
-    body {
-        width: 768px;
+        max-width: 768px;
+        margin: 0 ;
     }
 
     nav {
         padding-top: 23px;
         padding-bottom: 4px;
         padding-left: 48px;
-        padding-right: 52px;
+        padding-right: 0px;
+        width: 768px;
+        margin: 0;
     }
 
     ul {
         padding-top: 4px;
-        padding-left: 40px;
+        padding-left: 0px;
     }
     
     .home {
-        padding-top: px;
         padding-bottom: 67px;
+        width: 768px;
+        margin: 0;
     }
 
     section {
         padding-left: 49px;
         padding-right: 49px;
+    }
+
+    main {
+        width: 768px;
+        margin: 0;
     }
 
     .first_block {
@@ -535,8 +544,7 @@ button:hover {
 
     .leafs_adaptive {
         display: block;
-        width: 100%;
-        height: 100%;
+        width: 280px;
     }
 
     .leafs {
@@ -547,6 +555,8 @@ button:hover {
         display: flex;
         flex-direction: column;
         padding-top: 12px;
+        width: 768px;
+        margin: 0 auto;
     }
 
     .title_1 {
@@ -571,6 +581,12 @@ button:hover {
 
     .about_img {
         width: 250px;
+        padding-left: 0px;
+    }
+
+    .service {
+        width: 768px;
+        margin: 0 auto;
     }
 
     .nav_service {
@@ -617,6 +633,8 @@ button:hover {
     .price {
         padding-left: 64px;
         padding-right: 55px;
+        width: 768px;
+        margin: 0 auto;
     }
 
     .price_item_1 {
@@ -630,7 +648,8 @@ button:hover {
     }
 
     .price_item_2 {
-        padding-left: 29px;
+        padding-left: 0px;
+        padding-right: 30px;
     }
 
     .title_price_2 {
@@ -651,6 +670,11 @@ button:hover {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .contact {
+        width: 768px;
+        margin: 0 auto;
     }
 
     .contact_title {
@@ -681,6 +705,11 @@ button:hover {
         flex-direction: row;
         justify-content: center;
         padding-top: 256px;
+    }
+
+    footer {
+        width: 768px;
+        margin: 0 auto;
     }
 
     .footer_section_one {
