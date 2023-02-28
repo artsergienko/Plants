@@ -14,8 +14,10 @@ body {
     margin: 0 auto;
 }
 
-header {
+.header_css {
     background-color: #EDF2EC;
+    min-width: 1440px;
+    margin: 0;
 }
 
 nav {
@@ -26,8 +28,6 @@ nav {
     padding-bottom: 36px;
     padding-left: 109px;
     padding-right: 109px;
-    width: 1440px;
-    margin: 0 auto;
 }
 
 ul {
@@ -63,6 +63,8 @@ section {
 
 main {
     background-color: #EDF2EC;
+    min-width: 1440px;
+    margin: 0;
 }
 
 .home {
@@ -119,8 +121,8 @@ h1 {
     justify-content: space-between;
     padding-top: 60px;
     padding-bottom: 94px;
-    width: 1440px;
-    margin: 0 auto;
+    min-width: 1440px;
+    margin: 0;
 }
 
 .title_1 {
@@ -210,8 +212,8 @@ h1 {
 
 .price {
     padding-right: 106px;
-    width: 1440px;
-    margin: 0 auto;
+    min-width: 1440px;
+    margin: 0;
 }
 
 .price_basic {
@@ -490,18 +492,16 @@ button:hover {
         display: none;
     }
 
-    html {
-        max-width: 768px;
-        margin: 0 ;
-    }
+    .header_css {
+        min-width: 768px;
+        margin: 0;
+    } 
 
     nav {
         padding-top: 23px;
         padding-bottom: 4px;
         padding-left: 48px;
-        padding-right: 0px;
-        width: 768px;
-        margin: 0;
+        padding-right: 48px;
     }
 
     ul {
@@ -516,17 +516,19 @@ button:hover {
     }
 
     section {
-        padding-left: 49px;
-        padding-right: 49px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0;
     }
 
     main {
-        width: 768px;
+        min-width: 768px;
         margin: 0;
     }
 
     .first_block {
-        padding-left: 0px;
+        padding-left: 60px;
+        padding-right: 80px;
     }
 
     h1 {
@@ -545,6 +547,8 @@ button:hover {
     .leafs_adaptive {
         display: block;
         width: 280px;
+        height: 254px;
+        padding-right: 60px;
     }
 
     .leafs {
@@ -555,8 +559,8 @@ button:hover {
         display: flex;
         flex-direction: column;
         padding-top: 12px;
-        width: 768px;
-        margin: 0 auto;
+        min-width: 668px;
+        margin: 0;
     }
 
     .title_1 {
@@ -569,6 +573,8 @@ button:hover {
     .title_first_tablet {
         font-size: 20px;
         padding-bottom: 12px;
+        padding-left: 60px;
+        padding-right: 60px;
         text-align: justify;
     }
 
@@ -594,6 +600,7 @@ button:hover {
         flex-direction: column;
         justify-content: start;
         padding-bottom: 40px;
+        padding-left: 60px;
     }
 
     .title_2 {
@@ -609,6 +616,12 @@ button:hover {
     .btn_service {
         margin-left: 0px;
         margin-right: 30px;
+    }
+
+    .card_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .service_card {
@@ -631,10 +644,10 @@ button:hover {
     }
 
     .price {
-        padding-left: 64px;
-        padding-right: 55px;
-        width: 768px;
-        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 768px;
+        margin: 0;
     }
 
     .price_item_1 {
@@ -664,6 +677,8 @@ button:hover {
 
     .price_basic {
         padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 20px;
     }
 
     .expert_1 {
