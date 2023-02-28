@@ -7,6 +7,8 @@
 
 html {
     scroll-behavior: smooth;
+    min-width: 1440px;
+    margin: 0;
     }
 
 body {
@@ -54,11 +56,6 @@ li a.active {
 
 li a:hover:not(.active) {
     color: #E06733;
-}
-
-section {
-    padding-left: 106px;
-    padding-right: 120px;
 }
 
 main {
@@ -121,8 +118,14 @@ h1 {
     justify-content: space-between;
     padding-top: 60px;
     padding-bottom: 94px;
-    min-width: 1440px;
-    margin: 0;
+}
+
+.about_items {
+    padding-left: 190px;
+}
+
+.img_items {
+    padding-right: 160px;
 }
 
 .title_1 {
