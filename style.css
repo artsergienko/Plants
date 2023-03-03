@@ -511,11 +511,6 @@ button:hover {
         padding-bottom: 4px;
         padding-left: 48px;
         padding-right: 48px;
-        
-    }
-
-    .desktop {
-        
     }
 
     ul {
@@ -794,9 +789,14 @@ button:hover {
     @media screen and (max-width: 380px) {
 
         html {
-            
             min-width: 380px;
-        }
+            margin: 0;
+            }
+    
+        .header_css {
+            min-width: 380px;
+            margin: 0;
+        } 
     
         body {
             width: 380px;
@@ -908,8 +908,13 @@ button:hover {
           }
 
         .home {
-            padding: 22px 20px 22px 23px;
+            padding-bottom: 40px;
+            width: 380px;
           }
+
+        main {
+        min-width: 380px;
+        }
 
         h1 {
             font-size: 25px;
@@ -932,8 +937,9 @@ button:hover {
         }
 
         .about {
-            padding: 20px;
+            padding-top: 20px;
             margin-bottom: 3px;
+            min-width: 380px;
           }
 
         .title_1 {
@@ -949,19 +955,25 @@ button:hover {
 
         .title_first_tablet {
             font-size: 15px;
+            padding-top: 20px;
             padding-bottom: 0px;
             margin-bottom: 10px;
         }
 
         .service {
-            padding: 20px 20px 20px 24px;
+            padding: 0;
+            width: 380px;
+            padding-bottom: 60px;
+          }
+          .service_item {
+            min-width: 380px;
           }
 
         .title_2 {
             font-weight: normal;
             font-size: 25px;
             margin: 0px;
-            padding-top: 12px;
+            padding-top: 40px;
             padding-bottom: 15px;
         }
 
@@ -986,11 +998,12 @@ button:hover {
         }
 
         .price {
-            padding: 16px 20px 20px 20px;
+            min-width: 380px;
           }
 
         .price_h2 {
             margin: 0px;
+            padding-top: 26px;
             padding-bottom: 36px;
             font-size: 25px;
             text-align: center;
@@ -1049,7 +1062,7 @@ button:hover {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            padding-bottom: 20px;
+            padding-bottom: 40px;
         }
 
         .price_btn {
@@ -1063,13 +1076,13 @@ button:hover {
         }
 
         .contact {
-            padding: 20px 0px 0px 0px;
+            width: 380px;
           }
 
         .contact_title {
             font-size: 25px;
             margin: 0px;
-            padding-top: 6px;
+            padding-top: 40px;
         }
 
         .search {
@@ -1097,6 +1110,10 @@ button:hover {
         .price_basic {
             flex-direction: column;
             padding: 0px;
+        }
+
+        footer {
+            width: 380px;
         }
 
         .footer_section {
