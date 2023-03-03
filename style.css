@@ -496,6 +496,11 @@ button:hover {
         display: none;
     }
 
+    html {
+        min-width: 768px;
+        margin: 0;
+        }
+
     .header_css {
         min-width: 768px;
         margin: 0;
@@ -506,6 +511,11 @@ button:hover {
         padding-bottom: 4px;
         padding-left: 48px;
         padding-right: 48px;
+        
+    }
+
+    .desktop {
+        
     }
 
     ul {
@@ -567,6 +577,10 @@ button:hover {
         margin: 0;
     }
 
+    .about_items {
+        padding-left: 0px;
+    }
+
     .title_1 {
         font-size: 35px;
         padding-top: 0px;
@@ -587,6 +601,7 @@ button:hover {
         flex-direction: row;
         justify-content: center;
         padding-top: 4px;
+        padding-right: 0px;
     }
 
     .about_img {
